@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="CurriculumApp.MainPage">
+
+    <ScrollView>
+        <StackLayout Padding="20">
+            <!-- Sección de Imagen -->
+            <Image Source="photo.PNG" WidthRequest="150" HeightRequest="150" Aspect="AspectFill" HorizontalOptions="Center" />
+
+            <!-- Nombre -->
+            <Label Text="José Martínez" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" Margin="0,20,0,10"/>
+
+            <!-- Puesto -->
+            <Label Text="Puesto Ocupado / Buscado" FontSize="18" HorizontalOptions="Center" TextColor="Gray" Margin="0,0,0,20"/>
+
+            <!-- Sección de Contacto -->
+            <StackLayout>
+                <Label Text="CONTACTO" FontSize="20" FontAttributes="Bold" TextColor="Black" />
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="phone.png" WidthRequest="20" HeightRequest="20"/>
+                    <Label Text="999 999 999" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="email.png" WidthRequest="20" HeightRequest="20"/>
+                    <Label Text="jose.martinez@gmail.com" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="location.png" WidthRequest="20" HeightRequest="20"/>
+                    <Label Text="México DF" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="linkedin.png" WidthRequest="20" HeightRequest="20"/>
+                    <Label Text="linkedin.com/jose-martinez" />
+                </StackLayout>
+            </StackLayout>
+
+            <!-- Sección de Idiomas -->
+            <StackLayout>
+                <Label Text="IDIOMAS" FontSize="20" FontAttributes="Bold" TextColor="Black" />
+                <Label Text="Español: Nativo" />
+                <Label Text="Inglés: Bilingüe (TOEIC 950)" />
+                <Label Text="Francés: Intermedio (B2)" />
+            </StackLayout>
+
+            <!-- Sección de Aptitudes -->
+            <StackLayout>
+                <Label Text="APTITUDES" FontSize="20" FontAttributes="Bold" TextColor="Black" />
+                <Label Text="Inteligencia emocional" />
+                <Label Text="Espíritu crítico" />
+                <Label Text="Trabajo en equipo" />
+                <Label Text="Capacidad analítica" />
+                <Label Text="Habilidades físicas" />
+            </StackLayout>
+
+            <!-- Sección de Habilidades -->
+            <StackLayout>
+                <Label Text="HABILIDADES" FontSize="20" FontAttributes="Bold" TextColor="Black" />
+                <Label Text="Acondicionamiento físico" />
+                <Label Text="Creación de videos deportivos" />
+                <Label Text="Pack Office" />
+                <Label Text="Tenis" />
+            </StackLayout>
+
+            <!-- Sección de Otros Intereses -->
+            <StackLayout>
+                <Label Text="OTROS INTERESES" FontSize="20" FontAttributes="Bold" TextColor="Black" />
+                <Label Text="Creador de yincanas" />
+                <Label Text="Paseos ecológicos grupales" />
+                <Label Text="Lectura grupal en inglés" />
+            </StackLayout>
+
+            <!-- Perfil -->
+            <StackLayout>
+                <Label Text="PERFIL" FontSize="20" FontAttributes="Bold" TextColor="Black" />
+                <Label Text="Trabajador Social con 4 años de experiencia en proyectos colectivos. Mi objetivo es lograr que los jóvenes obtengan acceso a la educación superior mediante logros deportivos." />
+            </StackLayout>
+
+            <!-- Experiencia Laboral -->
+            <StackLayout>
+                <Label Text="EXPERIENCIA LABORAL" FontSize="20" FontAttributes="Bold" TextColor="Black" />
+                <Label Text="Trabajador Social en México DF (2022 – Actualmente)" FontSize="18" FontAttributes="Bold" />
+                <Label Text="Coordinador y mediador entre los equipos de ayuda psicológica a jóvenes y niños en exclusión social." />
+                <Label Text="Velar por la salud mental del equipo y de miembros involucrados en los proyectos." />
+                <Label Text="Monitor de ejercicios físicos para adolescentes." />
+
+                <Label Text="Trabajador Social en México DF (2020-2022)" FontSize="18" FontAttributes="Bold" />
+                <Label Text="Funciones para seguimientos de casos para jóvenes con problemas de adicciones." />
+                <Label Text="Capacitaciones e integración vinculadas a medidas preventivas." />
+                <Label Text="Recopilación de evidencias para auditorías y programas sociales." />
+
+                <Label Text="Trabajador Social (Prácticas) en Zaragoza, España (2019 – 2020)" FontSize="18" FontAttributes="Bold" />
+                <Label Text="Profesor de lengua española e inglesa para jóvenes migrantes." />
+                <Label Text="Monitor de actividades ecológicas con adolescentes." />
+                <Label Text="Coordinador de áreas deportivas." />
+            </StackLayout>
+
+            <!-- Formación -->
+            <StackLayout>
+                <Label Text="FORMACIÓN" FontSize="20" FontAttributes="Bold" TextColor="Black" />
+                <Label Text="Grado de Trabajo Social - ESMA, Madrid (2012-2015)" FontSize="18" FontAttributes="Bold" />
+                <Label Text="Licenciatura Profesional - Universidad de la Frontera, México DF (2011-2012)" FontSize="18" FontAttributes="Bold" />
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
